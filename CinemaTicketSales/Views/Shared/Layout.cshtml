@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/App_Start/Styles/LayoutStyles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <ul class="top-menu">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="">Filmler</a></li>
+            <li><a href="">Market</a></li>
+            <li><a href="">Hakkında</a></li>
+            <li><a href="">İletişim</a></li>
+        </ul>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
